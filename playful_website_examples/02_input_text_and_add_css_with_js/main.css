@@ -15,11 +15,11 @@ body {
   background-color: coral;
 }
 
-.pre_password {
-  display: block;
+#puppy {
+  display: none;
 }
 
-#post_password {
+#welcome_img {
   display: none;
 }
 
@@ -33,5 +33,6 @@ button {
 img {
   width: 65%;
   border: 1em solid black;
-  border-radius: 70%;
+  border-radius: 50%;
+  margin: auto;
 }
