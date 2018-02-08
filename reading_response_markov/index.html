@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Markov 1</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="markovword.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../../css/d2b.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <style>
+      body {
+        padding: 20px;
+        background: cornflowerblue;
+      }
+
+      .markov {
+        padding: 16px;
+        background-color: #EEE;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>Markov Chains</h1>
+
+        <p>This page demonstrates generating text from a Markov chain.  The program reads in text from the box below and generates new text based on statistical probabilities that one word will follow another based on the source text. <a href="https://github.com/shiffman/A2Z-F16">Source code on github from Dan Shiffman</a>.</p>
+
+
+        <p>
+          Input text:<br/>
+          <textarea id="text" cols="100" rows="10">
+            To think that such a shift in the cultural view on computer sciences took place in the short time span from the 1960’s to today really opens your eyes to the power of societal pressure. It’s ridiculous that even when programming was a field dominated by women, the programmers weren’t even respected enough to be invited to the dinner celebrating their success. It’s equally ridiculous that I’ve never learned about any of these women in school, this is my first time reading about any of them. I remember learning about early computers in history class, but never these stories, which goes to show the lasting impact of this effort to push women out of the field. Beyond school, on TV, in movies, in books, characters who were into computers were almost always depicted as quirky guys with glasses. Looking back it’s as if the idea of a female programmer was being actively pushed out of the collective conscious. I’m kind of ashamed that I’ve never read about the history of computer programming, but these stories need to be spread, especially knowing people like Damore are actively trying to push women out.
+
+        According to the recent release of a memo, written by an ex-Google engineer, the company’s initiative to expand its diversity was flawed. His argument was based around the differentiating psychology's between men and women. While I agree that sometimes diversity isn’t always an ideal solution, diversity for the sake of diversity can potentially be more harmful than a lack of diversity, the idea that biology has really any effect on such an external element like technology seems ridiculous. Ideas like this cripple progression and continue to promote gender roles and stereotypes.The article A Brief History of Women in Computing published by website Hackernoon, crushes the stereotype of women in the field. It illustrates not only the fact that the very foundations of computer science were built with them at the helm, but the decline and dismantling of their roles was a result of the invasive misogyny.
+
+        It is of no surprise that women once again have been undermined and kicked from positions that hold value. Women are always made out to be less than men due to the feeling of threat to a man’s masculinity and dominance. If we look at any of the STEM fields, there is a lack of women being seen due to inequality within the education system and social surroundings. The same holds true for programming. When women study programming, they are immediately undermined by other students and professors and then women are graded harder. When a person hears they can’t do something or is questioned consistently why they are doing what they are, it is of no surprise that the person begins to question them self or believe they are not good enough. The patriarch surrounds us and is consistently in our heads but with the proper amount of determination and drive, I think women can exceed men’s barriers.
+
+        In the Cosmopolitan 1967, there was an article entitled “The Computer Girls.” In the article, Dr. Grace Hopper explains that programming is “just like planning a dinner. You have to plan ahead and schedule everything so it’s ready when you need it. Programming requires patience and the ability to handle detail. Women are ‘naturals’ at computer programming.” Even though this was said by a woman, it is still sexist. Hopper was saying that because of women’s keen organization skills and responsibility they are excellent for computer programming. While this is not false, her comparison to computer science to “planning a dinner” is insulting. As an engineer to computer science, Hopper should have known that this was not an accurate description of the role of women in Computer Science. In reality, “starting in the late 1960’s, men realized programming was actually really hard, and thus, prestigious. That meant it was lucrative and valuable, and (some) men didn’t want women enjoying all the benefits of that.” As a result of this mentality, professional organizations, marketing and ad campaigns were created that discouraged the hiring of women into the computer science and programming fields. Films, video games and toys also began to surface that influence a stereotype of the “computer programmer” as an awkward male nerd. Because of this, a field that was largely invented by women had gone down from a 50% gender ratio to 37% by 1986. In reality, programming and coding would not exist without women. In 1843, Ada Lovelace became the first computer programmer by designing the first computer algorithm. About a century later during World War II, Hedy Lamar invented a frequency-hopping technology that would later allow the invention of wireless signals, such as Wi-Fi and Bluetooth. In 1945, Jean Bartik along with five other women developed and codified many foundations of software programming while working on ENIAC, one of the earliest computers made. These women were pushed to the back burner when they are not invited to the celebration for the completion of the ENIAC despite their work being crucial to its operation and success. It does, however, appear that the gender ratios are country-dependent. In 2011, only 18% of undergraduate students in Computer Science and Engineering were women in the United States. In contrast, 42% of Computer Science students were women in India. I absolutely cannot fathom the fact that people truly believe that people’s interests are “biological” and men are meant for computer programming versus women who”belong in the kitchen.” This ideology is so sexist and exists due to the false ideas proposed by men in order to get women out of the computer science field.
+
+        I found this article very interesting and relatable because of the way women and men are still treated differently today. Back then it was impossible to think that a woman have the brain capacity to understand coding but in reality many women are extremely intelligent. I disliked that people overlooked the capabilities of women at that time. It reminds me of the movie, Hidden Figures, which is about three black women who worked behind the scenes in the computational and engineering sections of NASA. All their efforts were extremely significant in America’s first launch into space, however, their race and gender made their efforts insignificant to the dominating men in the field. Especially in coding, there must have been a competitiveness when it came to getting jobs and because men were the employers, they only hired men in order to protect the ego of their own gender. Even today, this is still happening. Being a female graphic designer is still something that a lot of people are surprised about not just because of the stereotypes of my race but also my gender. Females are not expected to be interested in technology let alone coding for it. This article, of course, was very inspiring because society has come to terms with women in science and technology fields. It makes me feel proud to be a woman who enjoys working with technology and coding because it gives me a sense of accomplishment.
+
+        Humans have evolved for millenia and we have craeted roles for ourselves in order to progress in reproducing sucessfully so our genes can pass on. Men were the hunter gatherers, and women took care of the household, and children. Today people attach these roles irrationally to gender still, and there are traditional thinkers that feel that a specific gender is superior in mental ability than the other gender. These traditional thinkers thus, inlfuence the society around them, and since our brain forms from the inputs of our environment, societal beliefs are ingrained in the psyche. James Damore is a good example of someone who has taken in these beliefs as facts and not irrational opinions. Because of this, it is important to be and influence other around you to reamin self-critical, and constantly question the obstacles and rules laid out by the people who are trying to reign for power over others.
+
+        As humans living in an advanced and deeply connected civilization, we often like to think of ourselves as rational beings whose beliefs and values are based on some form of objective standard but the truth is that our understanding of the value of things is not only often irrational but also not even constructed of our own interest. When we are born we do not yet have the capacity for critical thinking and thus passively absorb the influences of society around us. Later in life, people confuse these absorbed biases as facts as James Damore seems to have done. As this is the case, it is of vital importance that we establish a self critical culture in which we routinely reexamine and challenge our understanding of the past and present and how rigorously our values and ideas are defined as this article has done. It is no surprise that Damore cites ideas that are as vague as the big 5 personality traits to support his claims considering that it is this type of unclear and categorical thinking that is routinely exploited by institutional power. This demonstrates that the entrenchment of power is not as much a function of active enactment or acceptance as much as it is a function of mass inattention.
+
+        This article makes a good point about how the modern world of technology is dominated by men. I believe that women are just as capable as men at being skilled in fields like coding, computer science, etc. and I believe that there is no biological connection between gender and interests. For example, I have many female friends who are studying to become engineers, and some of them are more skilled than my male friends who are pursuing the same field. I think that women should be able to pursue anything that they wish to, STEM-related or not, and as a woman, I think it’s important to not let the media influence you on what you choose to pursue. Your passion is your passion, and it should not be the media's job to tell you to stray away from it because you won’t be accepted for it.
+
+        After reading the article, I definitely agree with the argument that psychological
+        and biological factors are irrelevant to a woman's interest in the field of computing.
+        Although I havnen't done any research or read any articles that prove the idea
+        that women psychologically do not have interest in computing, the fact that
+        women were the first software engineers stands alone as pretty reasonable
+        evidence that proves Damore and others' arguments to be wrong (in my opinion).
+        I was not expecting to learn that women were the first software engineers;
+        I was actually surprised and found it ridiculous that people are claiming that
+        women naturally don't have interest in technology. Women have contributed a
+        ton in the world of technology and computing but "workplace sexism, hostility
+        and unfair treatment" have blurred and caused those to forget the role women
+        played or play in technology. From the article, it seems as if men were intimidated
+        by women excelling in programming which was found to be "really hard,
+        and thus, prestigious" since they "didn’t want women enjoying all the benefits of that".
+        Men were able to carefully manipulate the system that pushed and kept women away
+        from the field. And then with advertising and marketing, it became more of a social
+        trend that women just didn't mix with technology.
+        Also, given it has been proven in other countries that the gender ratios in computing
+        are fairly even, it becomes questionable that women wouldn't have interest in technology
+        due to psychological factors. From the history of women in computing in the U.S, it can
+        be proven that the reason as to why there are less women in the field is because men have
+        driven them out/ pushed them away from it.
+
+        This reading is about women in coding and a James Damore wrote a ten page memo saying how women were not as good as men at coding and it was because of their genetics, and is arguing that they can not help it their psychological make up prevented them from being as interested in technology which is preventing them from being as skilled in this field as men are. This obviously is not true and infact women were the first software engineers until the 1960’s men pushed them out and took over. They realized that programming was actually really hard which made it prestigious which also meant it was valuable and could be worth a lot of money and women could not participate in that.
+
+        There still is debate on whether women were actually “pushed out” of computer programming or genuinely lost interest causing a drop in women pursuing careers in computer science. Regardless of the reason there is an attitude in society that says computers are for boys not girls. When I was growing up I always noticed my mom encouraging my brother to use technology and learn how to fix technology if it breaks or something goes wrong. I never felt like she did that with me and my sister. Not to say she tried to keep me and my sister from using technology if we wanted to, in this generation I don’t really feel like there was any avoiding using technology since it is so prevalent in society today. However, when I was growing up I did in a way look at computers as a “boys thing” because that was the attitude that I noticed around me. Now I obviously no that ridiculous and computers and technology are not associated with any particular gender.
+
+
+
+          </textarea>
+        </p>
+
+        <p style="display:none;">
+          order:
+          <select id = "order">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </p>
+
+        <p>
+          length: <input type="text" size="5" id="length" value="50"></input>
+        </p>
+
+        <p>
+          <button id="generate">generate</button>
+          <button style="display:none;"id="clear">clear</button>
+        </p>
+
+        <p style="margin-bottom:5em;"id ="results"></p>
+  </body>
+</html>
